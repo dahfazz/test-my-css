@@ -2,6 +2,6 @@
 
 exports[`Buttons are OK 1`] = `
 ".btn {
-  padding-right: 18px; }
+  padding-right: 20px; }
 "
 `;

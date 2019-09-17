@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass src/index.scss public/styles.css",
+    "dev": "yarn run build:css --watch",
+    "start": "http-server",
+    "test:snapshot": "jest -c __tests__/snapshot/jest.config.js",
+    "test:screenshot": "jest -c __tests__/screenshot/jest.config.js",
+    "test": "yarn run test:snapshot && yarn run test:screenshot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "get-port": "^5.0.0",
+    "http-server": "^0.11.1",
+    "jest-junit": "^8.0.0",
+    "jest-puppeteer": "^4.3.0",
+    "jest-screenshot": "^0.2.2",
+    "jest-specific-snapshot": "^2.0.0",
+    "local-web-server": "^3.0.7",
+    "node-sass": "^4.12.0",
+    "puppeteer": "^1.20.0",
+    "ts-jest": "^24.1.0"
+  },
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}

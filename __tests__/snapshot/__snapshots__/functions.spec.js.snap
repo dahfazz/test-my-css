@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttons are OK 1`] = `
+"body {
+  background-color: #000;
+  color: #fff; }
+"
+`;

@@ -6,7 +6,7 @@
   "scripts": {
     "build:css": "node-sass src/index.scss public/styles.css",
     "dev": "yarn run build:css --watch",
-    "start": "http-server -c-1",
+    "start": "http-server",
     "test:snapshot": "jest -c __tests__/snapshot/jest.config.js",
     "test:screenshot": "jest -c __tests__/screenshot/jest.config.js",
     "test": "yarn run test:snapshot && yarn run test:screenshot"

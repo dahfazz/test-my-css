@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "node-sass src/index.scss public/styles.css",
+    "build": "node-sass src/index.scss public/styles.css",
     "dev": "yarn run build:css --watch",
     "start": "http-server",
     "test:snapshot": "jest -c __tests__/snapshot/jest.config.js",

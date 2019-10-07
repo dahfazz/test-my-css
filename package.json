@@ -1,20 +1,28 @@
 {
-  "name": "example",
+  "name": "test-my-css",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "watch": {
+    "lint": "src/*.scss"
+  },
   "scripts": {
     "build": "node-sass src/index.scss public/styles.css",
-    "dev": "yarn run build:css --watch",
-    "start": "http-server",
+    "dev": "yarn run build --watch",
+    "lint": "stylelint src/*.scss",
+    "start": "react-scripts start",
+    "test:unit": "jest -c __tests__/unit/jest.config.js",
     "test:snapshot": "jest -c __tests__/snapshot/jest.config.js",
     "test:screenshot": "jest -c __tests__/screenshot/jest.config.js",
-    "test": "yarn run test:snapshot && yarn run test:screenshot"
+    "test:e2e": "jest -c __tests__/e2e/jest.config.js",
+    "watch": "chokidar ./src/*.scss -c \"npm run lint\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^4.3.1",
+    "chokidar": "^3.2.1",
+    "chokidar-cli": "^2.0.0",
     "get-port": "^5.0.0",
     "http-server": "^0.11.1",
     "jest-junit": "^8.0.0",
@@ -24,9 +32,31 @@
     "local-web-server": "^3.0.7",
     "node-sass": "^4.12.0",
     "puppeteer": "^1.20.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-recommended-scss": "^4.0.0",
+    "stylelint-scss": "^3.11.1",
     "ts-jest": "^24.1.0"
   },
   "dependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

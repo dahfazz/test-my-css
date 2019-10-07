@@ -1,0 +1,8 @@
+.card {
+  margin-left: 1rem;
+  border: 8px solid $primary;
+
+  .dark & {
+    border-color: white;
+  }
+}

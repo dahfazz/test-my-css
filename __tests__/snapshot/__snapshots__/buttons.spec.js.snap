@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Buttons are OK 1`] = `
-".btn {
-  padding-right: 18px; }
-"
-`;

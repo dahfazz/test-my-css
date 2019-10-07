@@ -1,10 +1,10 @@
 var sass = require('node-sass');
 
-it('Buttons are OK', async () => {
+it('Functions snapshot is OK', async () => {
   
   var result = sass.renderSync({
     data: `
-    @import 'src/functions';
+    @import 'src/scss/functions';
     body {
       background-color: color-contrast(#ccc);
       color: color-contrast(#333);

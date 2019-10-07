@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards snapshot is OK 1`] = `
+".card {
+  margin-left: 1rem;
+  border: 8px solid black; }
+  .dark .card {
+    border-color: white; }
+"
+`;

@@ -1,0 +1,15 @@
+.header {
+  border-bottom: 1px solid $primary;
+  background: #eee;
+
+  h1 {
+    margin-left: 1rem;
+  }
+
+  .dark & {
+    background: #111;
+     h1 {
+       color: white;
+     }
+  }
+}

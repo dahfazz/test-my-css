@@ -9,7 +9,7 @@
   "scripts": {
     "build": "node-sass src/index.scss public/styles.css",
     "dev": "yarn run build --watch",
-    "lint": "stylelint src/*.scss",
+    "lint": "stylelint \"src/scss/*.scss\"",
     "start": "react-scripts start",
     "test:unit": "jest -c __tests__/unit/jest.config.js",
     "test:snapshot": "jest -c __tests__/snapshot/jest.config.js",

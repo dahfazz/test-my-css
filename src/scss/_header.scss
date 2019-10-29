@@ -1,15 +1,12 @@
 .header {
   border-bottom: 1px solid $primary;
-  background: #eee;
+  background-color: #0f0;
 
   h1 {
     margin-left: 1rem;
   }
 
-  .dark & {
-    background: #111;
-     h1 {
-       color: white;
-     }
+  &.dark {
+    background-color: #000;
   }
 }

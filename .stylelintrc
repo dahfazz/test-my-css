@@ -3,7 +3,7 @@
   "rules": {
     "block-no-empty": null,
     "unit-whitelist": ["ms", "rem", "px", "%", "vh"],
+    "declaration-no-important": true,
     "color-no-invalid-hex": true,
-    "declaration-no-important": true
   }
 }

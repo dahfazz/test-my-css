@@ -13,6 +13,7 @@ it('Functions are OK (unit test)', async () => {
 `);
 });
 
+
 it('Functions are OK  (unit test with fixture)', async () => {
   const result = sass.renderSync({
     data: `@import '__tests__/unit/functions.fixtures';`,

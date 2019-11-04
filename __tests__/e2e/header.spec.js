@@ -11,5 +11,5 @@ test('Header should look good be green', async () => {
       })
   
     await browser.close();
-    expect(headerBgColor).toEqual('rgb(0, 255, 0)');
+    expect(headerBgColor).toEqual('rgb(255, 0, 255)');
 })

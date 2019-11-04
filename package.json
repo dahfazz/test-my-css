@@ -7,7 +7,7 @@
     "lint": "src/*.scss"
   },
   "scripts": {
-    "build": "node-sass src/index.scss public/styles.css",
+    "build": "node-sass src/scss/index.scss public/styles.css",
     "dev": "yarn run build --watch",
     "lint": "stylelint \"src/scss/*.scss\"",
     "start": "react-scripts start",

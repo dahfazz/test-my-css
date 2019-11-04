@@ -1,13 +1,15 @@
-test('Header should look good on dark theme', async () => {
-  await page.goto(`http://localhost:${process.env.PORT}/index.html`);
+const puppeteer = require('puppeteer')
 
-  await page.waitForSelector('.header')
+test('Header should look good be green', async () => {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await page.goto('http://localhost:3000/index.html');
+
+    const headerBgColor = await page.evaluate(() => {
+        const header = document.body.querySelector('.header');
+        return window.getComputedStyle(header).backgroundColor;
+      })
   
-  const darkHeaderBG = await page.evaluate(() => {
-    const header = document.body.querySelector('.header');
-    header.classList.add('dark');
-    return window.getComputedStyle(header).backgroundColor;
-  })
-
-  expect(darkHeaderBG).toEqual('rgb(0, 0, 0)');
+    await browser.close();
+    expect(headerBgColor).toEqual('rgb(0, 255, 0)');
 })

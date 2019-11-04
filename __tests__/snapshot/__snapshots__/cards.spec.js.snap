@@ -3,8 +3,13 @@
 exports[`Cards snapshot is OK 1`] = `
 ".card {
   margin-left: 1rem;
-  border: 8px solid black; }
+  border: 8px solid black;
+  width: 40%; }
   .dark .card {
     border-color: white; }
+
+@media screen and (min-width: 980px) {
+  .card {
+    width: 30%; } }
 "
 `;

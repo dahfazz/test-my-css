@@ -2,7 +2,15 @@
   margin-left: 1rem;
   border: 8px solid $primary;
 
+  width: 40%;
+
   .dark & {
     border-color: white;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .card {
+    width: 30%;
   }
 }

@@ -18,52 +18,52 @@ function App() {
         </div>
       </header>
       <div className="container d-flex flex-wrap">
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog1.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog2.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog3.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog4.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog5.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog6.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog7.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog8.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog9.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog10.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog11.jpg" />
         </div>
-        <div className="card mb-3" style={{ width: '16rem' }}>
-          <img className="card-img-top" alt="Awesome dog wearing glasses" style={{ height: '180px', width: '100%', display: 'block' }}
+        <div className="card mb-3">
+          <img className="card-img-top d-block h-100" alt="Awesome dog wearing glasses"
             src="dogs/dog12.jpg" />
         </div>
       </div>

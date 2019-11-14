@@ -1,7 +1,7 @@
 # How I tested CSS
 
 ## Slides
-Coming soon...
+https://noti.st/fabienzibi/g6kDyu/comment-jai-teste-du-css
 
 ## References
 

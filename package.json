@@ -30,7 +30,7 @@
     "jest-screenshot": "^0.2.2",
     "jest-specific-snapshot": "^2.0.0",
     "local-web-server": "^3.0.7",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "puppeteer": "^1.20.0",
     "stylelint": "^11.0.0",
     "stylelint-config-recommended": "^3.0.0",

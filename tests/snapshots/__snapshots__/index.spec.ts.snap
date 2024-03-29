@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing change only when expected: Index snap 1`] = `
+"button {
+  font-size: 26px;
+  border: 5px solid black;
+  background: blue;
+  padding: 6px 12px;
+  color: white;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.card {
+  margin: 2rem 0;
+  border: 5px solid black;
+  max-width: 380px;
+  transition: all 300ms;
+}
+
+.card-header {
+  padding: 2rem;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-footer {
+  padding: 2rem;
+  background-color: #ddd;
+}
+
+input {
+  font-size: 26px;
+  border: 5px solid black;
+  background: #eee;
+  padding: 6px 12px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed black;
+}
+
+.bg-main {
+  background-color: blue !important;
+}
+
+.text-main {
+  color: blue !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+body {
+  padding: 0 4rem;
+  font-size: 26px;
+  background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: blue;
+}
+
+hr {
+  margin: 34px 0;
+}
+"
+`;

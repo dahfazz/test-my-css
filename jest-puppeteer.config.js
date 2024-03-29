@@ -1,13 +1,9 @@
 module.exports = {
-  launch: {
-    dumpio: true,
-    headless: true,
-    launch: {
-      defaultViewport: {
-        isLandscape: true,
-        width: 1920,
-        height: 1080,
-      }
-    }
+  testEnvironment: "jsdom",
+  preset: './puppeteer.preset.js',
+  testRegex: '(\\.|/)e2e\\.ts$',
+  testEnvironment: "node",
+  transform: {
+    '^.+\\.ts$': 'ts-jest'
   }
 }

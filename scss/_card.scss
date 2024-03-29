@@ -1,0 +1,24 @@
+@import 'vars';
+
+.card {
+  margin: 2rem 0;
+  border: $card-bordersize solid $card-bordercolor;
+  max-width: 380px;
+  transition: all 300ms;
+}
+
+.card-header {
+  padding: $card-padding;
+  font-weight: bold;
+  background-color: $card-headerbg;
+  color: white;
+}
+
+.card-body {
+  padding: $card-padding;
+}
+
+.card-footer {
+  padding: $card-padding;
+  background-color: #ddd;
+}

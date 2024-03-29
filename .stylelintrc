@@ -1,9 +1,0 @@
-{
-  "extends": "stylelint-config-recommended-scss",
-  "rules": {
-    "block-no-empty": true,
-    "unit-whitelist": ["ms", "rem", "px", "%", "vh"],
-    "declaration-no-important": true,
-    "color-no-invalid-hex": true,
-  }
-}

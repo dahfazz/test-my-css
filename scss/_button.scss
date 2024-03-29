@@ -1,0 +1,28 @@
+@import 'vars';
+@import 'functions';
+
+button {
+  font-size: $btn-fontsize;
+  border: $btn-bordersize solid $btn-bordercolor;
+  background: $btn_bg;
+  padding: 6px 12px;
+  color: $btn-color;
+
+  &:hover {
+    background-color: $btn-hoverbg;
+  }
+}
+
+@each $name, $value in $colors {
+  .btn-#{$name} {
+    background-color: $value;
+    border-color: $value;
+    color: color-contrast($value);
+    
+    &:hover {
+      background-color: darken($value, 15%);
+      border-color: darken($value, 25%);
+      color: color-contrast(darken($value, 45%));
+    }
+  }
+}

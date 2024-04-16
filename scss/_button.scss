@@ -1,0 +1,18 @@
+@import 'vars';
+@import 'functions';
+
+button {
+  font-size: $fontsize;
+  border: $bordersize solid $color;
+  background: $color;
+  padding: 6px 12px;
+  color: color-contrast($color);
+}
+
+@each $name, $value in $colors {
+  .btn-#{$name} {
+    background-color: $value;
+    border-color: $value;
+    color: color-contrast($value);
+  }
+}

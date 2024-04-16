@@ -1,0 +1,26 @@
+@import 'vars';
+@import 'button';
+@import 'card';
+@import 'functions';
+@import 'input';
+@import 'list';
+@import 'utilities';
+
+body {
+  padding: 0 4rem;
+  font-size: $fontsize;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color;
+}
+
+hr {
+  margin: 34px 0;
+}

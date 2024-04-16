@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "jest",
+      "puppeteer",
+      "jest-environment-puppeteer",
+      "expect-puppeteer"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+  }
+}

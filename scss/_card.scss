@@ -1,0 +1,27 @@
+@import 'vars';
+
+.card {
+  margin: 2rem 0;
+  border: $bordersize solid $color;
+  max-width: 380px;
+  transition: all 300ms;
+}
+
+.card {
+  .card-header {
+    padding: $padding;
+    font-weight: bold;
+    background-color: $color;
+    color: white;
+  }
+  
+  .card-body {
+    padding: $padding;
+  }
+  
+  .card-footer {
+    padding: $padding;
+    background-color: #ddd;
+  }
+}
+

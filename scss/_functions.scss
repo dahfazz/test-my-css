@@ -1,0 +1,9 @@
+/* stylelint-disable scss/no-global-function-names */
+@function color-contrast($color, $dark: #000, $light: #fff) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
+  $yiq: (($r * 299) + ($g * 597) + ($b * 114)) / 1000;
+
+  @return if($yiq >= 120, $dark, $light);
+}

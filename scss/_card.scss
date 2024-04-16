@@ -5,9 +5,7 @@
   border: $bordersize solid $color;
   max-width: 380px;
   transition: all 300ms;
-}
 
-.card {
   .card-header {
     padding: $padding;
     font-weight: bold;
@@ -24,4 +22,3 @@
     background-color: #ddd;
   }
 }
-

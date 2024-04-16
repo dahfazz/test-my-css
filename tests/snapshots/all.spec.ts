@@ -4,8 +4,8 @@ import { readdirSync } from 'fs';
 const SRC_PATH = 'scss/'
 
 const blacklist = [
-  // '_functions.scss',
-  // '_vars.scss',
+  '_functions.scss',
+  '_vars.scss',
 ];
 
 const files = readdirSync('scss').filter(file => !blacklist.includes(file));

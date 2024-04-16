@@ -2,29 +2,26 @@
 
 .card {
   margin: 2rem 0;
-  border: $card-bordersize solid $card-bordercolor;
+  border: $bordersize solid $color;
   max-width: 380px;
   transition: all 300ms;
 }
 
-.card {}
-
-.card .card-header {
-  padding: $card-padding;
-  font-weight: bold;
-  background-color: $card-headerbg;
-  color: white;
+.card {
+  .card-header {
+    padding: $padding;
+    font-weight: bold;
+    background-color: $color;
+    color: white;
+  }
+  
+  .card-body {
+    padding: $padding;
+  }
+  
+  .card-footer {
+    padding: $padding;
+    background-color: #ddd;
+  }
 }
 
-.card-header {
-  color: red;
-}
-
-.card-body {
-  padding: $card-padding;
-}
-
-.card-footer {
-  padding: $card-padding;
-  background-color: #ddd;
-}

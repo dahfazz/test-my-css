@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "block-no-empty": true,
+    "color-no-invalid-hex": true,
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-no-important": true,
+    "no-descending-specificity": true,
+    "no-duplicate-selectors": true,
+    "unit-no-unknown": true
+  }
+}

@@ -1,8 +1,8 @@
 @import 'vars';
 
 input {
-  font-size: $input-fontsize;
-  border: $input-bordersize solid $input-border;
+  font-size: $fontsize;
+  border: $bordersize solid $color;
   background: #eee;
   padding: 6px 12px;
 }

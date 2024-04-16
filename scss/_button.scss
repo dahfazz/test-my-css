@@ -2,15 +2,11 @@
 @import 'functions';
 
 button {
-  font-size: $btn-fontsize;
-  border: $btn-bordersize solid $btn-bordercolor;
-  background: $btn_bg;
+  font-size: $fontsize;
+  border: $bordersize solid $color;
+  background: $color;
   padding: 6px 12px;
-  color: $btn-color;
-
-  &:hover {
-    background-color: $btn-hoverbg;
-  }
+  color: color-contrast($color);
 }
 
 @each $name, $value in $colors {
@@ -18,11 +14,5 @@ button {
     background-color: $value;
     border-color: $value;
     color: color-contrast($value);
-    
-    &:hover {
-      background-color: darken($value, 15%);
-      border-color: darken($value, 25%);
-      color: color-contrast(darken($value, 45%));
-    }
   }
 }

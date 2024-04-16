@@ -1,10 +1,8 @@
 // COMMON
-$main: blue;
-$bordercolor: black;
+$color: blue;
 $fontsize: 16px;
 $bordersize: 1px;
 $padding: 1rem;
-
 $colors: (
   'red': #f00,
   'green': #0f0,
@@ -16,27 +14,3 @@ $colors: (
   'black': #000,
   'white': #fff,
 );
-
-
-// btn
-$btn-bordersize: $bordersize;
-$btn-bordercolor: $bordercolor;
-$btn-color: white;
-$btn-hoverbg: black;
-$btn_bg: $main;
-$btn-fontsize: $fontsize;
-
-// input
-$input-fontsize: $fontsize;
-$input-bordersize: $bordersize;
-$input-border: $bordercolor;
-
-// card
-$card-bordersize: $bordersize;
-$card-bordercolor: $bordercolor;
-$card-headerbg: $main;
-$card-padding: $padding;
-
-// list
-$list-padding: $padding / 2;
-$list-bordercolor: $bordercolor;

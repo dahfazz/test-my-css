@@ -12,7 +12,7 @@ describe('jest-image-snapshot usage with an image received from puppeteer', () =
 
   it('works', async () => {
     const page = await browser.newPage();
-    await page.goto('http://127.0.0.1:8081');
+    await page.goto('http://127.0.0.1:8080');
     const image = await page.screenshot();
 
     expect(image).toMatchImageSnapshot();

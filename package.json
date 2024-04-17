@@ -6,7 +6,7 @@
   "scripts": {
     "test:unit": "jest",
     "test:e2e": "jest -c jest-puppeteer.config.js",
-    "test:screenshot": "jest -c jest-screenshot.config.js",
+    "test:screen": "jest -c jest-screenshot.config.js",
     "build": "node-sass scss/ -o css/",
     "watch": "chokidar \"scss/**\" -c \"npm run build\" --initial",
     "serve": "http-server . -i -o -c-1",

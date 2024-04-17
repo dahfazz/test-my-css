@@ -1,9 +1,8 @@
-
-const sass = import('node-sass');
+import { renderSync } from 'node-sass';
 
 describe('CARD unit tests', () => {
-  it('Should return Card CSS', async () => {
-    const result = (await sass).renderSync({
+  it('Should return Card CSS', () => {
+    const result = renderSync({
       data: `
         @import 'scss/vars';
         @import 'scss/card';
@@ -22,9 +21,8 @@ describe('CARD unit tests', () => {
 `);
   });
 
-
-  // it('Should return Card CSS', async () => {
-  //   const result = (await sass).renderSync({
+  // it('Should return Card CSS', () => {
+  //   const result = renderSync({
   //     data: `
   //       @import 'scss/vars';
   //       @import 'scss/card';

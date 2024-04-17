@@ -5,7 +5,7 @@ button {
   font-size: $fontsize;
   border: $bordersize solid $color;
   background: $color;
-  padding: 6px 12px;
+  padding: 12px 24px;
   color: color-contrast($color);
 }
 
@@ -15,4 +15,8 @@ button {
     border-color: $value;
     color: color-contrast($value);
   }
+}
+
+.btn-a {
+  border-color: $color;
 }

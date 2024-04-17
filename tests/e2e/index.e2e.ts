@@ -1,6 +1,6 @@
 import { Browser, Page, launch } from 'puppeteer';
 
-describe('Forms', () => {
+describe('HTML element tests', () => {
   let browser: Browser;
   let page: Page;
 
@@ -14,7 +14,7 @@ describe('Forms', () => {
     browser.close();
   });
 
-  it('should have input and button with same heights"', async () => {
+  it('should have input and button with same height"', async () => {
     const heights = await page.evaluate(() => {
       return {
         btn: document.querySelector('#tst-btn').getBoundingClientRect().height,
@@ -25,9 +25,9 @@ describe('Forms', () => {
     expect(heights.btn).toEqual(heights.input);
   });
 
-  it('should apply color on button', async () => {
+  it('should apply right color on blue button', async () => {
     const btnStyles = await page.evaluate(() => {
-      const btn = document.querySelector('.btn-blue');
+      const btn = document.querySelector('.btn-d');
       const { backgroundColor, color } = window.getComputedStyle(btn);
 
       return { backgroundColor, color }

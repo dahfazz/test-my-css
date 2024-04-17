@@ -1,10 +1,9 @@
-import { Result } from 'node-sass';
-
-const sass = import('node-sass');
+import { renderSync, Result, } from 'node-sass';
 
 describe('Function unit tests', () => {
-  it('Should return dark color against light', async () => {
-    const result = (await sass).renderSync({
+
+  it('Should return dark color against light', () => {
+    const result = renderSync({
       data: `@import 'scss/functions';
       .test { color: color-contrast(#eee); }`,
       outputStyle: 'compact',
@@ -13,8 +12,8 @@ describe('Function unit tests', () => {
     expect(cleanCSS(result)).toEqual(`.test { color: #000; }`);
   });
 
-  it('Should return light color against dark', async () => {
-    const result = (await sass).renderSync({
+  it('Should return light color against dark', () => {
+    const result = renderSync({
       data: `
       @import 'scss/functions';
       
@@ -26,8 +25,8 @@ describe('Function unit tests', () => {
     expect(cleanCSS(result)).toEqual(`.test { color: #fff; }`)
   });
 
-  // it('Should return dark color against light', async () => {
-  //   const result = (await sass).renderSync({
+  // it('Should return dark color against light', () => {
+  //   const result = renderSync({
   //     data: `@import 'tests/unit/functions.fixtures';`,
   //     outputStyle: 'compact',
   //   });

@@ -5,7 +5,7 @@ button {
   font-size: $fontsize;
   border: $bordersize solid $color;
   background: $color;
-  padding: 12px 24px;
+  padding: $padding;
   color: color-contrast($color);
 }
 
